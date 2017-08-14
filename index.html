@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="css/colorgame.css">
+</head>
+<body>
+<div class="container-fluid">
+<!--Main heading DIV row-->
+	<div class="row text-center h1 mainHeading">
+	THE GREAT
+	<p class="heading">RGB<span>( 255, 255, 255)</span></p>
+	GUESSING GAME
+	</div> <!--main heading row ends-->
+	<!--nav bar DIV start-->
+	<div class="row tabs">
+	<div class="col-xs-4">
+	<button id="newColors" class="btn tabs pull-right">NEW GAME</button>
+	</div>
+	<div class="col-xs-4 middleText text-center"></div><!--middle COLUMN-->
+	<div class="col-xs-4">
+	<button id="changeLevel" class="btn tabs pull-left">EASY</button>	
+	<button id="defaultLevel" class="btn tabs pull-left active">HARD</button>
+	</div>	
+	</div><!--nav bar DIV ends-->
+	<div class="row box center-block">
+	 <div id="box1" class="colorBoxes"></div>
+     <div id="box1" class="colorBoxes"></div>
+     <div id="box1" class="colorBoxes"></div>
+     <div id="box4" class="colorBoxes"></div>
+     <div id="box5" class="colorBoxes"></div>
+     <div id="box6" class="colorBoxes"></div>
+   </div><!--color blocks DIV-->
+</div><!--container DIV-->
+<script type="text/javascript" src="js/colorgame.js"></script>
+</body>
+</html>
